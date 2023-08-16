@@ -19,7 +19,7 @@ char pass[] = "mass1978";
 BLYNK_WRITE(V0)
 {
 int pinValue = param.asInt();
-  if (pinValue == 3) {
+  if (pinValue == 2) {
     pixels.setPixelColor(0, 0xff0000);
     pixels.setPixelColor(1, 0xff0000);
     pixels.setPixelColor(2, 0xff0000);
@@ -34,7 +34,7 @@ int pinValue = param.asInt();
 BLYNK_WRITE(V1)
 {
 int pinValue = param.asInt();
-  if (pinValue == 3) {
+  if (pinValue == 2) {
     pixels.setPixelColor(0, 0x3333ff);
     pixels.setPixelColor(1, 0x3333ff);
     pixels.setPixelColor(2, 0x3333ff);
